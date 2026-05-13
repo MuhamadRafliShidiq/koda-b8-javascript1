@@ -1,7 +1,7 @@
 // Membuat program hitung luas dan keliling lingkaran
-let jariJari = "r";
+let r = "r";
 const phi = 3.14;
-let keliling = 2 * phi * jariJari;
-let luas = phi * jariJari * jariJari;
-console.log(keliling);
-console.log(luas);
+const K = 2 * phi * r;
+const L = phi * r * r;
+console.log(K);
+console.log(L);
