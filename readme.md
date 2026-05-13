@@ -11,6 +11,7 @@ Flowchart Luas dan Keliling Lingkaran
     a@{ shape: circle, label: "Start" }
     b@{ shape: lean-r, label: "r" }
     k@{ shape: diamond, label: "typeof r !== 'number'" }
+    l@{ shape: lean-r, label: "error = 'r must be a number'" }
     c@{ shape: diamond, label: " r%7 == 0" }
     i@{ shape: rect, label: " phi = 3,14" }
     j@{ shape: rect, label: " phi = 22/7" }
@@ -21,8 +22,8 @@ Flowchart Luas dan Keliling Lingkaran
     h@{ shape: dbl-circ, label: "Stop" }
 
     a --> b --> k
-    k --True--> h
-    k ---> c
+    k --True--> l --> h
+    k --> c
     c --True--> j
     c --False--> i
 
