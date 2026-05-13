@@ -10,7 +10,7 @@ Membuat flowchar dari program Perulangan yang menghasilkan segitiga siku-siku
 
     a@{ shape: circle, label: "Start" }
     b@{ shape: lean-r, label: " str = ' '" }
-    d@{ shape: diamond, label: "j <= 5" }
+    d@{ shape: diamond, label: "j <= 4" }
     e@{ shape: rect, label: " str += ' * '" }
     g@{ shape: lean-r, label: " '{str}'" }
     f@{ shape: rect, label: " increment j++" }
