@@ -22,7 +22,7 @@ Flowchart Luas dan Keliling Lingkaran
 
     a --> b --> k
     k --True--> h
-    k --False--> c
+    k ---> c
     c --True--> j
     c --False--> i
 
