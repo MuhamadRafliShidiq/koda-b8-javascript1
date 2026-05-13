@@ -3,7 +3,6 @@
 const we = {
     are: {
         the: {
-            name: "Rafli",
             best: "Koda"
         }
     }
