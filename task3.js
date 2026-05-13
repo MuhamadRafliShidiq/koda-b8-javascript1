@@ -1,7 +1,7 @@
 // Membuat Perulangan yang menghasilkan segitiga siku-siku
 
 let str = "";
-for (let j = 1; j <= 5; j++) {
+for (let j = 1; j <= 4; j++) {
     str += "*"
     console.log(str);
 }
@@ -10,4 +10,3 @@ for (let j = 1; j <= 5; j++) {
 // ketika j = 2, str = "**"
 // ketika j = 3, str = "***"
 // ketika j = 4, str = "****"
-// ketika j = 5, str = "*****"
