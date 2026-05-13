@@ -1,5 +1,5 @@
 // Membuat program hitung luas dan keliling lingkaran
-let r = "r";
+let r = 10;
 const phi = 3.14;
 const K = 2 * phi * r;
 const L = phi * r * r;
