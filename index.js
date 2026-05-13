@@ -1,4 +1,4 @@
-// 
+// Membuat program hitung luas dan keliling lingkaran
 let jariJari = "r";
 const phi = 3.14;
 let keliling = 2 * phi * jariJari;
