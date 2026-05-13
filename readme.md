@@ -10,6 +10,7 @@ Flowchart Luas dan Keliling Lingkaran
 
     a@{ shape: circle, label: "Start" }
     b@{ shape: lean-r, label: "r" }
+    k@{ shape: diamond, label: "typeof r !== 'number'" }
     c@{ shape: diamond, label: " r%7 == 0" }
     i@{ shape: rect, label: " phi = 3,14" }
     j@{ shape: rect, label: " phi = 22/7" }
@@ -19,7 +20,9 @@ Flowchart Luas dan Keliling Lingkaran
     g@{ shape: lean-r, label: "'{K}'" }
     h@{ shape: dbl-circ, label: "Stop" }
 
-    a --> b --> c
+    a --> b --> k
+    k --True--> h
+    k --False--> c
     c --True--> j
     c --False--> i
 
