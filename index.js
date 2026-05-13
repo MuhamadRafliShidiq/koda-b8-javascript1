@@ -1,5 +1,5 @@
 // Membuat program hitung luas dan keliling lingkaran
-let r = 7;
+let r = "abc";
 if (typeof r !== "number") {
     console.log(error = "r must be a number");
     return
