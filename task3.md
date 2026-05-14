@@ -2,7 +2,7 @@
 
 ## Flowchart
 
-Membuat flowchar dari program Perulangan yang menghasilkan segitiga siku-siku
+Membuat flowchart dari program Perulangan yang menghasilkan segitiga siku-siku
 
 ```mermaid
 
