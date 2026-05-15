@@ -15,7 +15,7 @@
 // console.log(k);
 // console.log(l);
 
-// Mengganti dengan menggunakan function
+// Merubah kode dengan menggunakan function
 function lingkaran(r) {
     if (typeof r !== "number") {
         console.log(error = "r must be a number");
