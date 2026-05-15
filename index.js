@@ -28,7 +28,8 @@ function lingkaran(r) {
     }
     const k = 2 * phi * r;
     const l = phi * r * r;
-    return [k, l];
+    // return [k, l];
+    console.log(k);
+    console.log(l)
 }
-
-console.log(lingkaran(7));
+lingkaran(7);
